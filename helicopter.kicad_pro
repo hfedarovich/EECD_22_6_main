@@ -324,6 +324,14 @@
     [
       "de42dab9-d5a5-448a-b64c-7d39c83807b1",
       "Sensors"
+    ],
+    [
+      "8027772a-0953-4782-8447-2c100ffa6fed",
+      "Power"
+    ],
+    [
+      "795dc6ed-96b5-4dba-8c1b-5afdf71adf58",
+      "sd_card"
     ]
   ],
   "text_variables": {}
