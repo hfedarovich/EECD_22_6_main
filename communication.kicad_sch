@@ -4,6 +4,11 @@
 
   (paper "A4")
 
+  (title_block
+    (date "2022-12-16")
+    (rev "0.1.0")
+  )
+
   (lib_symbols
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
@@ -329,7 +334,7 @@
   (symbol (lib_id "power:+3.3V") (at 149.86 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6141ad77-e71d-4b57-9042-5d8d98bf5d20)
-    (property "Reference" "#PWR?" (id 0) (at 149.86 83.82 0)
+    (property "Reference" "#PWR0149" (id 0) (at 149.86 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 149.86 74.93 0))
@@ -345,7 +350,7 @@
   (symbol (lib_id "power:GND") (at 149.86 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6a5e99f9-d00c-409c-b5a1-dc6bd628de4a)
-    (property "Reference" "#PWR?" (id 0) (at 149.86 121.92 0)
+    (property "Reference" "#PWR0148" (id 0) (at 149.86 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 149.86 120.65 0))
@@ -361,7 +366,7 @@
   (symbol (lib_id "Device:C") (at 167.64 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid fc74fc37-333e-4090-b448-5e1cf18e6cea)
-    (property "Reference" "C?" (id 0) (at 171.45 96.5199 0)
+    (property "Reference" "C19" (id 0) (at 171.45 96.5199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10μF" (id 1) (at 171.45 99.0599 0)
@@ -380,7 +385,7 @@
   (symbol (lib_id "RF:NRF24L01_Breakout") (at 149.86 97.79 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ff78ac23-fbd1-4152-abb5-de919c55ff00)
-    (property "Reference" "U?" (id 0) (at 140.97 85.09 0)
+    (property "Reference" "U6" (id 0) (at 140.97 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "NRF24L01_Breakout" (id 1) (at 160.02 107.95 90)
