@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 3.0,
+          "height": 6.0,
+          "width": 6.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -121,7 +121,8 @@
       "track_widths": [
         0.0,
         0.2,
-        0.4
+        0.4,
+        0.6
       ],
       "via_dimensions": [
         {
@@ -131,6 +132,10 @@
         {
           "diameter": 0.75,
           "drill": 0.5
+        },
+        {
+          "diameter": 1.25,
+          "drill": 0.75
         }
       ],
       "zones_allow_external_fillets": false,
@@ -359,7 +364,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -369,8 +374,8 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
+        "track_width": 0.2,
+        "via_diameter": 0.75,
         "via_drill": 0.4,
         "wire_width": 6.0
       }
@@ -433,10 +438,6 @@
     [
       "129f86a5-61ca-44fd-8187-13ce14c7a661",
       ""
-    ],
-    [
-      "03584532-d520-432f-bf10-7b409826f4f4",
-      "Connectors"
     ],
     [
       "8027772a-0953-4782-8447-2c100ffa6fed",
