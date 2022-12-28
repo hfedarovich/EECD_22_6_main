@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.0,
-          "height": 6.0,
-          "width": 6.0
+          "drill": 1.19,
+          "height": 2.19,
+          "width": 1.74
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -85,7 +85,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
@@ -454,6 +454,10 @@
     [
       "795dc6ed-96b5-4dba-8c1b-5afdf71adf58",
       "SD Card"
+    ],
+    [
+      "10513554-b31f-45e6-a93d-23cae8b6c932",
+      "LEDs"
     ]
   ],
   "text_variables": {
