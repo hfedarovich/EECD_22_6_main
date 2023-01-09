@@ -513,7 +513,7 @@
     (uuid 67fe024e-db92-40e3-9367-adfc11ff3627)
   )
 
-  (hierarchical_label "CLK" (shape input) (at 130.81 96.52 180)
+  (hierarchical_label "SCK" (shape input) (at 130.81 96.52 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0be92453-624d-4328-ac40-12c81bcc2890)
   )
@@ -529,7 +529,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0dd8e909-0e24-4694-be54-bcb925bc7863)
   )
-  (hierarchical_label "CLK" (shape input) (at 212.09 95.25 180)
+  (hierarchical_label "SCK" (shape input) (at 212.09 95.25 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 5ab0205b-ec80-43df-bcd3-02343ef8df03)
   )
