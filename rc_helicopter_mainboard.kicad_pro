@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -376,7 +376,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.75,
-        "via_drill": 0.4,
+        "via_drill": 0.5,
         "wire_width": 6.0
       }
     ],
@@ -454,10 +454,6 @@
     [
       "795dc6ed-96b5-4dba-8c1b-5afdf71adf58",
       "SD Card"
-    ],
-    [
-      "10513554-b31f-45e6-a93d-23cae8b6c932",
-      "LEDs"
     ]
   ],
   "text_variables": {
