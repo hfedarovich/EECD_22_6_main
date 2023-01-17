@@ -47,6 +47,7 @@
     )
     (pad_to_mask_clearance 0)
     (aux_axis_origin 122 122)
+    (grid_origin 122 122)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
@@ -82,7 +83,7 @@
     )
   )
 
-  (property "REVISION" "0.1.0")
+  (property "REVISION" "1.0.0")
 
   (net 0 "")
   (net 1 "GND")
